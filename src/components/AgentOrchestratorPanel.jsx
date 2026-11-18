@@ -69,7 +69,7 @@ export default function AgentOrchestratorPanel({ activeClientKey, onSelectClient
             </span>
           </div>
           <h2 className="mt-1.5 text-lg font-bold tracking-tight text-slate-900">
-            Kiến Trúc 3 Agent Chuyên Trách &rarr; 1 Support Tổng &rarr; Người Quan Sát Tổng (Tâm)
+            Kiến Trúc 3 Agent Chuyên Trách &rarr; 1 Support Tổng &rarr; Người Quan Sát Tổng (Advisor)
           </h2>
         </div>
 

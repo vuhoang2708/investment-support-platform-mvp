@@ -6,8 +6,8 @@ export const PLATFORM_META = {
   subtitle: 'Khung phân tích nhân quả 4 lớp & Cơ chế chống mù sự kiện 1–3 tháng tới',
   version: 'Demo MVP v1.0',
   advisorContext: {
-    advisorName: 'Tâm',
-    role: 'Chuyên viên tư vấn đầu tư (YSVN)',
+    advisorName: 'Portfolio Advisor',
+    role: 'Chuyên viên tư vấn đầu tư',
     workflowGoal:
       'Kết nối phân tích Top-Down 4 lớp (Thể chế VN -> Vĩ mô Mỹ/VN -> Ngành -> Cổ phiếu) với Radar sự kiện 1–3 tháng để phân tách khuyến nghị theo từng nhóm khẩu vị khách hàng.',
   },
@@ -204,7 +204,7 @@ export const TOP_DOWN_LAYERS = [
         keyRisk: 'Biên lợi nhuận mỏng và rủi ro chậm thanh toán công nợ.',
       },
     ],
-    source: 'Báo cáo phân tích ngành YSVN & Tổng cục Thống kê (GSO)',
+    source: 'Báo cáo phân tích ngành (Mô phỏng MVP) & Tổng cục Thống kê (GSO)',
     timestamp: '2025-10-28 08:30 ICT',
   },
   {
@@ -594,10 +594,10 @@ export const AGENT_ANALYSES = [
   },
   {
     id: 'agent-observer',
-    agentName: 'Người quan sát tổng (Tâm / Advisor)',
+    agentName: 'Người quan sát tổng (Advisor)',
     roleType: 'observer',
     focusLayers: ['Kiểm soát chất lượng & Ký duyệt tư vấn (Human-in-the-Loop)'],
-    status: 'Chờ Tâm kiểm tra & điều chỉnh trước khi trao đổi khách hàng',
+    status: 'Chờ Advisor kiểm tra & điều chỉnh trước khi trao đổi khách hàng',
     headline: 'Trạm kiểm soát cuối của chuyên viên tư vấn: đối chiếu bối cảnh thực tế khách hàng & chống lệ thuộc AI',
     confidence: 'Human-in-the-Loop',
     keyFindings: [
@@ -605,8 +605,8 @@ export const AGENT_ANALYSES = [
       'Đối chiếu góc nhìn khác biệt giữa Macro Agent và Event & Flow Agent để chủ động giải thích cho khách hàng thay vì lúng túng khi giá đi ngược tin vĩ mô.',
       'Đảm bảo mọi trao đổi với khách hàng luôn giữ nguyên lưu ý rủi ro: phân tích chỉ mang tính tham khảo, không cam kết lợi nhuận.',
     ],
-    blindSpotWarning: 'Chuyên viên tư vấn (Tâm) chịu trách nhiệm xác minh lại số liệu gốc trước khi gửi khuyến nghị cá nhân hóa.',
-    source: 'Quy trình kiểm soát nội bộ của Advisor (Tâm - YSVN)',
+    blindSpotWarning: 'Chuyên viên tư vấn (Advisor) chịu trách nhiệm xác minh lại số liệu gốc trước khi gửi khuyến nghị cá nhân hóa.',
+    source: 'Quy trình kiểm soát nội bộ của Chuyên viên tư vấn (Advisor)',
     timestamp: '2025-10-28 09:25 ICT',
   },
 ];

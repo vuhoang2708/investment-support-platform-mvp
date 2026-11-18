@@ -18,7 +18,7 @@ const STARTER_PROMPT = `Chạy phân tích đầu tư tuần này theo đúng GE
 3. Nếu phát hiện xung đột giữa tín hiệu vĩ mô và dòng tiền ngắn hạn, gắn cờ CONFLICT ALERT và tách riêng khuyến nghị tham khảo cho 3 nhóm: Nhóm A (1–4 tuần), Nhóm B (3–12 tháng), Nhóm C (12+ tháng), kèm giả định nền, kịch bản thay thế, nguồn và tuyên bố miễn trừ trách nhiệm.`;
 
 const GEMINI_MD_SNIPPET = `# Quy Tắc Workspace Tư Vấn Đầu Tư Top-Down & Event Radar (GEMINI.md)
-- Vai trò: Portfolio Manager hỗ trợ Advisor (Tâm - YSVN), trung thực, định lượng rủi ro, không cam kết lợi nhuận.
+- Vai trò: Portfolio Manager hỗ trợ Chuyên viên Tư vấn Đầu tư (Advisor), trung thực, định lượng rủi ro, không cam kết lợi nhuận.
 - Khung Top-Down 4 lớp bắt buộc:
   1. Thể chế VN (4 biến số -> Phần bù rủi ro thể chế: +1.8% – +2.5%)
   2. Vĩ mô Mỹ & VN (FOMC, BLS CPI/PPI, US 10Y, DXY, USD/VND, NHNN, VN-Index)
@@ -152,7 +152,7 @@ export default function WorkspaceKitPanel() {
           <div className="flex items-center gap-2">
             <FolderGit2 className="h-4 w-4 text-blue-600" />
             <span className="text-xs font-semibold uppercase tracking-wider text-blue-700">
-              Chuyển đổi quy trình cho Chuyên viên Tư vấn (Tâm - YSVN)
+              Chuyển đổi quy trình cho Chuyên viên Tư vấn Đầu tư (Advisor)
             </span>
           </div>
           <h2 className="mt-1 text-lg font-bold tracking-tight text-slate-900">
@@ -198,7 +198,7 @@ export default function WorkspaceKitPanel() {
                 CSV sự kiện 1–3 tháng để bật cờ <strong>CONFLICT ALERT</strong>.
               </li>
               <li>
-                <strong>Subagents + Scheduled Tasks</strong> tổng hợp báo cáo định kỳ, Tâm chỉ kiểm
+                <strong>Subagents + Scheduled Tasks</strong> tổng hợp báo cáo định kỳ, Advisor chỉ kiểm
                 duyệt ở vai trò <em>Người Quan Sát Tổng</em>.
               </li>
             </ul>
@@ -234,7 +234,7 @@ export default function WorkspaceKitPanel() {
       <section className="space-y-4">
         <CopyCodeCard
           id="starter-prompt"
-          title="Prompt Khởi Chạy Chu Kỳ Tuần Cho Tâm (1-Click Copy)"
+          title="Prompt Khởi Chạy Chu Kỳ Tuần Cho Advisor (1-Click Copy)"
           badge="Antigravity Chat / Scheduled Task"
           content={STARTER_PROMPT}
           copiedId={copiedId}
