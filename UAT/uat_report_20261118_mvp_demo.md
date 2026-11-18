@@ -1,8 +1,8 @@
 # Báo Cáo Kiểm Thử Nghiệm Thu (UAT) & Hồ Sơ Phát Hành — Demo MVP
 
-- **Ngày thực hiện:** 2026-11-18 (GMT+7)
-- **Mục tiêu:** Xây dựng Demo MVP Nền tảng Hỗ trợ Tư vấn Đầu tư Top-Down 4 lớp & Event Radar 1–3 tháng tới (Phương án 2: Interactive Web MVP + Bộ nạp CSV/Google Sheets + Bộ khung Antigravity), đẩy lên GitHub và triển khai Live lên Vercel.
-- **Trạng thái nghiệm thu:** **Live done (PASS 100%)**
+- **Ngày thực hiện:** 2026-11-18 (GMT+7) — Cập nhật bản sạch PII (`ed7b509`)
+- **Mục tiêu:** Xây dựng Demo MVP Nền tảng Hỗ trợ Tư vấn Đầu tư Top-Down 4 lớp & Event Radar 1–3 tháng tới (Phương án 2: Interactive Web MVP + Bộ nạp CSV/Google Sheets + Bộ khung Antigravity), đẩy lên GitHub, triển khai Live lên Vercel và kiểm chứng ẩn danh hóa 100% thông tin cá nhân/đơn vị công tác.
+- **Trạng thái nghiệm thu:** **Live done (PASS 100% — 0 PII trên Live, GitHub, Drive & Docs)**
 
 ---
 
@@ -11,12 +11,13 @@
 | Hạng mục | Giá trị kiểm chứng |
 | :--- | :--- |
 | **GitHub Repository** | `https://github.com/vuhoang2708/investment-support-platform-mvp` |
-| **Source Commit SHA (deployed)** | `632e7615ed39481f4bb7d9e9415a7127a95f3ba8` |
+| **Source Commit SHA (deployed clean PII)** | `ed7b509e94dc92af91568d882ec9eb3624195253` |
 | **Vercel Project** | `vuhoang2708s-projects/investment-support-platform-mvp` |
 | **Vercel Production Alias** | `https://investment-support-platform-mvp.vercel.app` |
-| **Vercel Deployment URL** | `https://investment-support-platform-90j79t3bd-vuhoang2708s-projects.vercel.app` |
-| **Vercel Deployment ID** | `dpl_Bvf3T27mtYX8j1y5ioTSN4U3oPBL` |
-| **Lệnh Rollback (nếu cần)** | `npx vercel rollback dpl_Bvf3T27mtYX8j1y5ioTSN4U3oPBL` (hoặc `vercel rm investment-support-platform-mvp`) |
+| **Vercel Deployment URL (Mới nhất)** | `https://investment-support-platform-6lpxju8fz-vuhoang2708s-projects.vercel.app` |
+| **Vercel Deployment ID (Mới nhất)** | `dpl_AHvJ25rd8avK7H9sCkeUFKFFhMu3` |
+| **Google Drive PDF (Public Reader, đã cập nhật sạch)** | `14p4twv16B5ZJYtrG8SRKVQ3s8jNYndht` (`https://drive.google.com/file/d/14p4twv16B5ZJYtrG8SRKVQ3s8jNYndht/view?usp=drivesdk`) |
+| **Lệnh Rollback (nếu cần)** | `npx vercel rollback dpl_AHvJ25rd8avK7H9sCkeUFKFFhMu3` |
 
 ---
 
